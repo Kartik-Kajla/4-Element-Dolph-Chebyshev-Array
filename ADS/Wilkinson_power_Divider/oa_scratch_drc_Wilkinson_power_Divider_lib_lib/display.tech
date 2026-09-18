@@ -1,7 +1,0 @@
-<!DOCTYPE Display>
-<Display>
-    <Current_Lpp name=""/>
-    <Lpp_Display_Order order="0">
-        <LPP name="drc1:drawing"/>
-    </Lpp_Display_Order>
-</Display>

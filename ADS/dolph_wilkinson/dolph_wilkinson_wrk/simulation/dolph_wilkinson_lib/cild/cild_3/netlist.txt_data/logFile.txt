@@ -1,0 +1,40 @@
+
+hpeesofsim (*) 550.shp Jul 24 2021, MINT version 5
+    (64-bit windows built: Sat Jul 24, 2021 16:09:49 +0000)
+
+
+***** Simulation started at Tue Sep 15 10:46:36 2026
+      Running on host: "DESKTOP-43BMM8L"
+      In Directory: "D:\ECE_SOFTWARE_wORKS\ADS_circuits\dolph_wilkinson\dolph_wilkinson_wrk\simulation\dolph_wilkinson_lib\cild\cild_3"
+      Process ID: 12268
+
+Parsing the netlist ...
+Flattening the netlist ...
+
+OPTIM Optim1[1] <netlist.txt>  optIter=(0->25)
+
+AC Optim1[1].ZcGammaExt[0] <netlist.txt>  optIter=0  freq=2.4545 GHz
+Iteration/Trial #0:
+  CurrentEF: 1.42588024208832e-13
+  Optimization variables:
+    Width = 460.794e-03
+
+AC Optim1[1].ZcGammaExt[1] <netlist.txt>  optIter=1  freq=2.4545 GHz
+Iteration/Trial #1:
+  CurrentEF: 2.55276319905558e-15
+  Optimization variables:
+    Width = 460.7944751565693e-03
+
+AC Optim1[1].ZcGammaExt[2] <netlist.txt>  optIter=2  freq=2.4545 GHz
+Iteration/Trial #2:
+  CurrentEF: 2.55276319905558e-15
+  Optimization variables:
+    Width = 460.7944751565693e-03
+Optim1[1] terminated due to no more improvement 
+
+SP Optim1[1].FinalAnalysis1[1].SP1[1] <netlist.txt>   freq=2.4545 GHz
+
+Checking for unresolved variables ...
+Flushing data (please wait) ...
+     ... data flush done.
+

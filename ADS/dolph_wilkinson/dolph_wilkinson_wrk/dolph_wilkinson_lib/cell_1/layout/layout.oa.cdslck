@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      Kartik
+HostName                       DESKTOP-43BMM8L
+ProcessIdentifier              2116
+ProcessCreationTime_UTC        1789672202
+ProcessCreationTime_Readable   Fri Sep 18 00:40:02 2026 India Standard Time
+AppIdentifier                  OA File System Design Manager
+OSType                         win32
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         D:\ECE_SOFTWARE_wORKS\ADS_circuits\dolph_wilkinson\dolph_wilkinson_wrk\dolph_wilkinson_lib\cell_1\layout\layout.oa.cdslck
+TimeEditLocked                 Fri Sep 18 00:40:16 2026 India Standard Time

@@ -1,3 +1,0 @@
-INCLUDE $HPEESOF_DIR/oalibs/analog_rf.defs
-DEFINE Wilkinson_power_Divider_lib Wilkinson_power_Divider_lib
-ASSIGN Wilkinson_power_Divider_lib libMode shared

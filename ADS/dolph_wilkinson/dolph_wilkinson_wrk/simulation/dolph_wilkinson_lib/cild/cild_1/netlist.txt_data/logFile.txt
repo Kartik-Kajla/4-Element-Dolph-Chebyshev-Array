@@ -1,0 +1,70 @@
+
+hpeesofsim (*) 550.shp Jul 24 2021, MINT version 5
+    (64-bit windows built: Sat Jul 24, 2021 16:09:49 +0000)
+
+
+***** Simulation started at Sun Sep  6 12:56:24 2026
+      Running on host: "DESKTOP-43BMM8L"
+      In Directory: "D:\ECE_SOFTWARE_wORKS\ADS_circuits\dolph_wilkinson\dolph_wilkinson_wrk\simulation\dolph_wilkinson_lib\cild\cild_1"
+      Process ID: 27496
+
+Parsing the netlist ...
+Flattening the netlist ...
+
+OPTIM Optim1[1] <netlist.txt>  optIter=(0->25)
+
+AC Optim1[1].ZcGammaExt[0] <netlist.txt>  optIter=0  freq=2.4545 GHz
+Iteration/Trial #0:
+  CurrentEF: 0.532153215148465
+  Optimization variables:
+    Width = 1
+
+AC Optim1[1].ZcGammaExt[1] <netlist.txt>  optIter=1  freq=2.4545 GHz
+Iteration/Trial #1:
+  CurrentEF: 0.028195310282579
+  Optimization variables:
+    Width = 2.325716677593244
+
+AC Optim1[1].ZcGammaExt[2] <netlist.txt>  optIter=2  freq=2.4545 GHz
+Iteration/Trial #2:
+  CurrentEF: 0.0111335046268889
+  Optimization variables:
+    Width = 2.568914883014636
+
+AC Optim1[1].ZcGammaExt[3] <netlist.txt>  optIter=3  freq=2.4545 GHz
+Iteration/Trial #3:
+  CurrentEF: 0.000788020673944459
+  Optimization variables:
+    Width = 2.915315046990687
+
+AC Optim1[1].ZcGammaExt[4] <netlist.txt>  optIter=4  freq=2.4545 GHz
+Iteration/Trial #4:
+  CurrentEF: 3.27393621189041e-05
+  Optimization variables:
+    Width = 3.025935024431565
+
+AC Optim1[1].ZcGammaExt[5] <netlist.txt>  optIter=5  freq=2.4545 GHz
+Iteration/Trial #5:
+  CurrentEF: 1.35660176938994e-07
+  Optimization variables:
+    Width = 3.053214485274872
+
+AC Optim1[1].ZcGammaExt[6] <netlist.txt>  optIter=6  freq=2.4545 GHz
+Iteration/Trial #6:
+  CurrentEF: 2.92932588965471e-11
+  Optimization variables:
+    Width = 3.055074979870543
+
+AC Optim1[1].ZcGammaExt[7] <netlist.txt>  optIter=7  freq=2.4545 GHz
+Iteration/Trial #7:
+  CurrentEF: 1.10356857317763e-13
+  Optimization variables:
+    Width = 3.055101033949826
+Optim1[1] terminated due to no more improvement 
+
+SP Optim1[1].FinalAnalysis1[1].SP1[1] <netlist.txt>   freq=2.4545 GHz
+
+Checking for unresolved variables ...
+Flushing data (please wait) ...
+     ... data flush done.
+

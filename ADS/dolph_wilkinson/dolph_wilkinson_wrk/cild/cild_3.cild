@@ -1,0 +1,68 @@
+<!DOCTYPE cild_doc>
+<cild libraryName="dolph_wilkinson_lib">
+ <CommonData Version="1.2">
+  <SimMode mode="4"/>
+  <StatIter num="250"/>
+  <Optimize GoalTarget="0" GoalValue="112.7539" GoalValueCommon="25" GoalValueDiff="100" GoalValueSingle="112.7539"/>
+  <Variables>
+   <Variable start="1" step="1" stopUnitType="3" points="10" isAbsOfNegativeValue="0" name="freq" statValue="10" sweep="1" enabled="1" statMode="4" unitFamily="0" sweepMode="1" optimizeMode="1" type="0" Version="1.3" stop="10" statistical="0" nominalUnitType="3" statValueUnitType="-1" startUnitType="3" nominal="2.4545" stepUnitType="3">
+    <roles/>
+   </Variable>
+   <Variable start="1" step="1" stopUnitType="3" points="10" isAbsOfNegativeValue="0" name="Length" statValue="10" sweep="0" enabled="1" statMode="0" unitFamily="1" sweepMode="1" optimizeMode="1" type="0" Version="1.3" stop="10" statistical="0" nominalUnitType="3" statValueUnitType="-1" startUnitType="3" nominal="10" stepUnitType="3">
+    <roles/>
+   </Variable>
+   <Variable start="1" step="1" stopUnitType="3" points="10" isAbsOfNegativeValue="0" name="Width" statValue="10" sweep="1" enabled="1" statMode="0" unitFamily="1" sweepMode="1" optimizeMode="0" type="4" Version="1.3" stop="10" statistical="0" nominalUnitType="3" statValueUnitType="-1" startUnitType="3" nominal="0.460794" stepUnitType="3">
+    <roles/>
+   </Variable>
+   <Variable start="1" step="1" stopUnitType="3" points="10" isAbsOfNegativeValue="0" name="Space" statValue="10" sweep="1" enabled="0" statMode="0" unitFamily="1" sweepMode="1" optimizeMode="0" type="4" Version="1.3" stop="10" statistical="0" nominalUnitType="3" statValueUnitType="-1" startUnitType="3" nominal="1" stepUnitType="3">
+    <roles/>
+   </Variable>
+   <Variable start="1" step="1" stopUnitType="3" points="10" isAbsOfNegativeValue="0" name="Clearance" statValue="10" sweep="0" enabled="0" statMode="0" unitFamily="1" sweepMode="1" optimizeMode="0" type="4" Version="1.3" stop="10" statistical="0" nominalUnitType="3" statValueUnitType="-1" startUnitType="3" nominal="1" stepUnitType="3">
+    <roles/>
+   </Variable>
+   <Variable start="1" step="1" stopUnitType="2" points="10" isAbsOfNegativeValue="0" name="cond__Thickness" statValue="10" sweep="0" enabled="1" statMode="0" unitFamily="1" sweepMode="1" optimizeMode="0" type="2" Version="1.3" stop="10" statistical="0" nominalUnitType="2" statValueUnitType="-1" startUnitType="2" nominal="35" stepUnitType="2">
+    <roles>
+     <role value="5" key="0"/>
+     <role value="cond" key="3"/>
+    </roles>
+   </Variable>
+   <Variable start="45" step="10" stopUnitType="0" points="10" isAbsOfNegativeValue="0" name="cond__Angle" statValue="10" sweep="0" enabled="1" statMode="0" unitFamily="4" sweepMode="1" optimizeMode="0" type="2" Version="1.3" stop="135" statistical="0" nominalUnitType="0" statValueUnitType="-1" startUnitType="0" nominal="90" stepUnitType="0">
+    <roles>
+     <role value="6" key="0"/>
+     <role value="cond" key="3"/>
+    </roles>
+   </Variable>
+   <Variable start="1" step="1" stopUnitType="3" points="10" isAbsOfNegativeValue="0" name="Thickness_1" statValue="10" sweep="0" enabled="1" statMode="0" unitFamily="1" sweepMode="1" optimizeMode="0" type="1" Version="1.3" stop="10" statistical="0" nominalUnitType="3" statValueUnitType="-1" startUnitType="3" nominal="1.6" stepUnitType="3">
+    <roles>
+     <role value="1" key="0"/>
+     <role value="1" key="1"/>
+    </roles>
+   </Variable>
+   <Variable start="1" step="1" stopUnitType="0" points="10" isAbsOfNegativeValue="0" name="FR_4_epoxy__Er__Real" statValue="10" sweep="0" enabled="1" statMode="0" unitFamily="3" sweepMode="1" optimizeMode="0" type="3" Version="1.3" stop="10" statistical="0" nominalUnitType="0" statValueUnitType="-1" startUnitType="0" nominal="4.4" stepUnitType="0">
+    <roles>
+     <role value="2" key="0"/>
+     <role value="FR_4_epoxy" key="2"/>
+    </roles>
+   </Variable>
+   <Variable start="1" step="1" stopUnitType="0" points="10" isAbsOfNegativeValue="0" name="FR_4_epoxy__Er__TanD" statValue="10" sweep="0" enabled="1" statMode="0" unitFamily="3" sweepMode="1" optimizeMode="0" type="3" Version="1.3" stop="10" statistical="0" nominalUnitType="0" statValueUnitType="-1" startUnitType="0" nominal="0.02" stepUnitType="0">
+    <roles>
+     <role value="4" key="0"/>
+     <role value="FR_4_epoxy" key="2"/>
+    </roles>
+   </Variable>
+  </Variables>
+ </CommonData>
+ <ComponentData CurrentSubGroup="0" Type="OaMultilayer">
+  <SubstrateData Type="OaSubstrate">
+   <LibSubstrate name="dolph_wilkinson_lib:substrate1"/>
+  </SubstrateData>
+  <PhysicalData Version="1.4" Type="LineType">
+   <CrossSection LineType="0" TopPlane="" BottomPlane="">
+    <Lines>
+     <Line space="Space" width="Width" layer="cond" spaceType="1"/>
+    </Lines>
+    <Clearances/>
+   </CrossSection>
+  </PhysicalData>
+ </ComponentData>
+</cild>

@@ -1,0 +1,3 @@
+INCLUDE $HPEESOF_DIR/oalibs/analog_rf.defs
+DEFINE dolph_wilkinson_lib dolph_wilkinson_lib
+ASSIGN dolph_wilkinson_lib libMode shared

@@ -1,0 +1,17 @@
+<!DOCTYPE Materials>
+<Materials>
+    <Conductors>
+        <Conductor real="5.8e7 Siemens/m" tc2="" imag="" tc1="" mur_real="1" thermal_conductivity="401" heat_capacity="2.49E+06" mur_imag="" thermal_conductivity_in_z="" name="Copper" electron_path="" tnom="" parmtype="1"/>
+        <Conductor real="0.71e7 Siemens/m" tc2="" imag="" tc1="" mur_real="1" thermal_conductivity="" heat_capacity="" mur_imag="" thermal_conductivity_in_z="" name="Typical_solder" electron_path="" tnom="" parmtype="1"/>
+    </Conductors>
+    <Dielectrics>
+        <Dielectric er_imag="" mur_real="1" thermal_conductivity="" lowfreq="1 KHz" er_real="4.6" heat_capacity="" er_loss="0.01" mur_imag="" loss_type="1" valuefreq="1 GHz" highfreq="1 THz" thermal_conductivity_in_z="" name="FR_4_Core" electron_path=""/>
+        <Dielectric er_imag="" mur_real="1" thermal_conductivity="" lowfreq="1 KHz" er_real="4.6" heat_capacity="" er_loss="0.01" mur_imag="" loss_type="1" valuefreq="1 GHz" highfreq="1 THz" thermal_conductivity_in_z="" name="FR_4_Prepreg" electron_path=""/>
+        <Dielectric er_imag="" mur_real="1" thermal_conductivity="" lowfreq="1 KHz" er_real="3.3" heat_capacity="" er_loss="" mur_imag="" loss_type="1" valuefreq="1 GHz" highfreq="1 THz" thermal_conductivity_in_z="" name="SolderMask" electron_path=""/>
+        <Dielectric er_imag="" mur_real="1" thermal_conductivity="" lowfreq="1 KHz" er_real="4.6" heat_capacity="" er_loss="0.01" mur_imag="" loss_type="1" valuefreq="1 GHz" highfreq="1 THz" thermal_conductivity_in_z="" name="FR_4" electron_path=""/>
+        <Dielectric er_imag="" mur_real="1" thermal_conductivity="25.25" lowfreq="1 KHz" er_real="9.6" heat_capacity="1.73E+06" er_loss="" mur_imag="" loss_type="1" valuefreq="1 GHz" highfreq="1 THz" thermal_conductivity_in_z="" name="Alumina" electron_path=""/>
+        <Dielectric er_imag="" mur_real="1" thermal_conductivity="" lowfreq="1 KHz" er_real="4.4" heat_capacity="" er_loss="0.02" mur_imag="" loss_type="1" valuefreq="1 GHz" highfreq="1 THz" thermal_conductivity_in_z="" name="FR_4_epoxy" electron_path=""/>
+    </Dielectrics>
+    <Semiconductors/>
+    <roughness/>
+</Materials>
