@@ -1,7 +1,7 @@
-2.4 GHz 6-Element Dolph–Chebyshev Microstrip Antenna Array
+2.4 GHz 4-Element Dolph–Chebyshev Microstrip Antenna Array
 Overview
 
-This repository documents the design and simulation of a 2.4 GHz 6-element Dolph–Chebyshev microstrip antenna array with a target sidelobe level (SLL) of −30 dB.
+This repository documents the design and simulation of a 2.45 GHz 4-element Dolph–Chebyshev microstrip antenna array with a target sidelobe level (SLL) of −30 dB.
 
 The project covers the complete engineering workflow, from designing a single microstrip patch antenna to developing a custom unequal Wilkinson feed network and finally integrating both into a complete antenna array.
 
